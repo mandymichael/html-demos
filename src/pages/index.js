@@ -53,6 +53,8 @@ const IndexPage = () => (
                             <div><div href="/good-dogs">Good Dogs</div></div>
                             <div><div href="/">Sleeping Dogs</div></div>
                             <div><div href="/">Fluffy Dogs</div></div>
+                            <Link to="page-2">Another Demo</Link>
+
                         </div>
                     </div>
                 </div>
