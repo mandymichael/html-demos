@@ -14,10 +14,11 @@ const SecondPage = () => (
 	</nav>
 
 	<main id="main" role="main" tabindex="0">
-			<h1>Dogs: They are good</h1>
+			<h1 itemprop="headline">Dogs: They are good</h1>
             <div><p>Corgo you are a long doggo, many pats.</p></div>
-		    <div><time datetime="2018-08-03">August 3rd, 2018</time></div>
+		    <div itemscope="" itemtype="http://schema.org/Person"><span itemprop="author">Mandy Michael</span>, <time datetime="2018-08-03" itemprop="pubdate">August 3rd, 2018</time></div>
 
+            <article itemprop="articleBody">
 			<h2>Why are dogs good?</h2>
 			<p>Doggo ipsum the neighborhood pupper, shoob you are doin me a concern. Noodle horse smol borking</p>
 			<figure>
@@ -40,6 +41,7 @@ const SecondPage = () => (
 				<cite>– floofy pupper, neighborhood</cite>
 			</blockquote>
 			<p>Doggo ipsum aqua doggo bork such treat stop it fren bork doge, sub woofer shoober heckin angery woofer woofer. dat tungg tho wow very biscit floofs. Floofs doing me a frighten woofer tungg aqua doggo, ur givin me a spook vvv long bois.</p>
+            </article>
 	</main>
 
 	<footer>
