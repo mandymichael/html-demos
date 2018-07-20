@@ -14,14 +14,14 @@ const SecondPage = () => (
         </nav>
 
         <main id="main" role="main" tabindex="0">
-                <h1 itemprop="headline">Dogs: They are good</h1>
+                <h1 itemProp="headline">Dogs: They are good</h1>
                 <div><p>Corgo you are a long doggo, many pats.</p></div>
-                <div itemscope itemtype="http://schema.org/Person">
-                    <span itemprop="author">Mandy Michael</span>,
-                    <time datetime="2018-08-03" itemprop="datePublished">August 3rd, 2018</time>
+                <div itemScope itemType="http://schema.org/Person">
+                    <span itemProp="author">Mandy Michael</span>,
+                    <time datetime="2018-08-03" itemProp="datePublished">August 3rd, 2018</time>
                 </div>
 
-                <article itemprop="articleBody">
+                <article itemProp="articleBody">
                 <h2>Why are dogs good?</h2>
                 <p>Doggo ipsum the neighborhood pupper, shoob you are doin me a concern. Noodle horse smol borking</p>
                 <figure>

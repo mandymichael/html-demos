@@ -12,7 +12,6 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'A totally cool page about why dogs are the best' },
         { name: 'keywords', content: 'dogs, best' },
-        {  name: 'author', content: 'Mandy Michael' }
       ]}
     />
     <div
