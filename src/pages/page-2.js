@@ -16,7 +16,10 @@ const SecondPage = () => (
         <main id="main" role="main" tabindex="0">
                 <h1 itemprop="headline">Dogs: They are good</h1>
                 <div><p>Corgo you are a long doggo, many pats.</p></div>
-                <div itemscope="" itemtype="http://schema.org/Person"><span itemprop="author">Mandy Michael</span>, <time datetime="2018-08-03" itemprop="pubdate">August 3rd, 2018</time></div>
+                <div itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="author">Mandy Michael</span>,
+                    <time datetime="2018-08-03" itemprop="datePublished">August 3rd, 2018</time>
+                </div>
 
                 <article itemprop="articleBody">
                 <h2>Why are dogs good?</h2>
