@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'HTML - The Div',
+    title: 'Doggos. The Goodest of Pets.',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
