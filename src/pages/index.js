@@ -9,16 +9,16 @@ const IndexPage = () => (
                 <div>
                     <div>
                         <div>
-                            <div href="/">Home</div>
+                            <a href="/">Home</a>
                         </div>
                         <div>
-                            <div href="/good-dogs">Good Dogs</div>
+                            <a href="/good-dogs">Good Dogs</a>
                         </div>
                         <div>
-                            <div href="/">Sleeping Dogs</div>
+                            <a href="/">Sleeping Dogs</a>
                         </div>
                         <div>
-                            <div href="/">Fluffy Dogs</div>
+                            <a href="/">Fluffy Dogs</a>
                         </div>
                     </div>
                 </div>
@@ -56,13 +56,20 @@ const IndexPage = () => (
                     <div>Long doggo pupperino, many pats extremely cuuuuuute.</div>
                     <div>– floofy pupper, neighborhood</div>
                 </div>
-                <p>Doggo ipsum aqua doggo bork such treat stop it fren bork doge, sub woofer shoober heckin angery woofer woofer. dat tungg tho wow very biscit floofs. Floofs doing me a frighten woofer tungg aqua doggo, ur givin me a spook vvv long bois. Puggo aqua doggo
-                    shooberino borkf, lotsa pats. Lotsa pats fluffer boofers wow such tempt shibe boof, bork borking doggo you are doing me the shock long woofer. Doggo fluffer heckin stop it fren long woofer, length boy waggy wags fat boi. Woofer floofs long water shoob
-                    borkdrive long water shoob the neighborhood pupper pupper ur givin me a spook, very hand that feed shibe tungg very good spot doggorino very jealous pupper. Ur givin me a spook big ol long doggo, he made many woofs. Smol porgo mlem floofs most angery
+                <p>Doggo ipsum aqua doggo bork such treat stop it fren bork doge, sub woofer shoober heckin angery woofer woofer. dat tungg tho wow very biscit floofs. Floofs doing me a frighten woofer tungg aqua doggo, ur givin me a spook vvv long bois. Puggo aqua doggo.</p>
+                <p>shooberino borkf, lotsa pats. Lotsa pats fluffer boofers wow such tempt shibe boof, bork borking doggo you are doing me the shock long woofer. <q cite="http://google.com">Dogs are the best</q>. Doggo fluffer heckin stop it fren long woofer, length boy waggy wags fat boi. Woofer floofs long water shoob</p>
+
+                <details>
+                    <summary>Doggo Rules</summary>
+                    Borkdrive long water shoob the neighborhood pupper.
+                </details>
+
+
+                     {/* pupper ur givin me a spook, very hand that feed shibe tungg very good spot doggorino very jealous pupper. Ur givin me a spook big ol long doggo, he made many woofs. Smol porgo mlem floofs most angery
                     pupper I have ever seen doing me a frighten shoober, vvv borking doggo shibe you are doing me a frighten maximum borkdrive. Heckin good boys stop it fren super chub woofer shoober clouds, what a nice floof very hand that feed shibe doge ruff. Most
                     angery pupper I have ever seen shoober most angery pupper I have ever seen length boy heckin shoob length boy doing me a frighten, tungg very jealous pupper heckin good boys pupperino heck very taste wow. Borkdrive yapper shibe stop it fren big ol,
                     the neighborhood pupper shibe clouds. Noodle horse lotsa pats puggo, bork. Blop stop it fren ruff snoot, very good spot puggo h*ck, the neighborhood pupper super chub. Super chub very hand that feed shibe heckin angery woofer many pats, shoober ruff
-                    shoober, very good spot doge. Long water shoob waggy wags extremely cuuuuuute shoober he made many woofs, pupper blop floofs. Heck fat boi shooberino doggorino sub woofer wow very biscit puggorino, big ol smol bork he made many woofs.</p>
+                    shoober, very good spot doge. Long water shoob waggy wags extremely cuuuuuute shoober he made many woofs, pupper blop floofs. Heck fat boi shooberino doggorino sub woofer wow very biscit puggorino, big ol smol bork he made many woofs.</p> */}
             </div>
         </div>
 
@@ -70,16 +77,16 @@ const IndexPage = () => (
             <div>
                 <div>
                     <div>
-                        <div href="/">Home</div>
+                        <a href="/">Home</a>
                     </div>
                     <div>
-                        <div href="/good-dogs">Good Dogs</div>
+                        <a href="/good-dogs">Good Dogs</a>
                     </div>
                     <div>
-                        <div href="/">Sleeping Dogs</div>
+                        <a href="/">Sleeping Dogs</a>
                     </div>
                     <div>
-                        <div href="/">Fluffy Dogs</div>
+                        <a href="/">Fluffy Dogs</a>
                     </div>
 
                     <Link to="page-2">Another Demo</Link>

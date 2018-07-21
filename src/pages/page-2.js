@@ -23,14 +23,17 @@ const SecondPage = () => (
 
                 <article itemProp="articleBody">
                 <h2>Why are dogs good?</h2>
-                <p>Doggo ipsum the neighborhood pupper, shoob you are doin me a concern. Noodle horse smol borking</p>
+                <p><q cite="http://google.com">Dogs are the best</q>, doggo ipsum the neighborhood pupper, shoob you are doin me a concern. Noodle horse smol borking</p>
                 <figure>
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Screen%20Shot%202018-04-02%20at%209.15.48%20PM.png" alt="A fluffy golden retriever" width="300" />
                     <figcaption>Michaelangelo AKA "Jello"</figcaption>
                 </figure>
+                <p>The <dfn><abbr title="IGDA">International Good Dog Association</abbr></dfn>
+is an international, not-for-profit organization responsible for determining that all dogs are good.</p>
                 <hr />
 
                 <h3>Doggo ipsum the neighborhood pupper, shoob you are doin me a concern. Noodle horse smol borking</h3>
+                <p>The Incomprehens<wbr/>ibilities of not loving dogs.</p>
                 <ul>
                     <li>Doggo ipsum the neighborhood pupper, shoob you are doin me a concern. Noodle horse smol borking</li>
                     <li>Blop adorable doggo what a nice floof</li>
@@ -40,7 +43,7 @@ const SecondPage = () => (
                 <h2>He made many woofs</h2>
                 <p>Shoober very good boys and girls smol aqua doggo</p>
                 <blockquote>
-                    <p>Long doggo pupperino, many pats extremely cuuuuuute.</p>
+                    <p>Long doggo pupperino, many pats <mark>extremely cuuuuuute</mark>.</p>
                     <cite>– floofy pupper, neighborhood</cite>
                 </blockquote>
                 <p>Doggo ipsum aqua doggo bork such treat stop it fren bork doge, sub woofer shoober heckin angery woofer woofer. dat tungg tho wow very biscit floofs. Floofs doing me a frighten woofer tungg aqua doggo, ur givin me a spook vvv long bois.</p>
