@@ -16,9 +16,9 @@ const SecondPage = () => (
         <main id="main" role="main" tabindex="0">
                 <h1 itemProp="headline">Dogs: They are good</h1>
                 <div><p>Corgo you are a long doggo, many pats.</p></div>
-                <div itemScope itemType="http://schema.org/Person">
-                    <span itemProp="author">Mandy Michael</span>,&nbsp;
-                    <time datetime="2018-08-03" itemProp="datePublished">August 3rd, 2018</time>
+                <div class="byline" itemScope itemType="http://schema.org/Person">
+                    <span class="author" itemProp="author">Mandy Michael</span>,&nbsp;
+                    <time class="published-date" datetime="2018-08-03" itemProp="datePublished">August 3rd, 2018</time>
                 </div>
 
                 <article itemProp="articleBody">
