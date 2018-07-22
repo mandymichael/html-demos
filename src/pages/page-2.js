@@ -28,7 +28,7 @@ const SecondPage = () => (
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Screen%20Shot%202018-04-02%20at%209.15.48%20PM.png" alt="A fluffy golden retriever" width="300" />
                     <figcaption>Michaelangelo AKA "Jello"</figcaption>
                 </figure>
-                <p>The <dfn><abbr title="IGDA">International Good Dog Association</abbr></dfn>
+                <p>The <dfn><abbr title="International Good Dog Association">IGDA</abbr></dfn>
 is an international, not-for-profit organization responsible for determining that all dogs are good.</p>
                 <hr />
 
