@@ -14,7 +14,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'dogs, best'},
         { name: 'author', content: 'Mandy Michael'}
       ]}
-    />
+    >
+          <html lang="en" />
+    </Helmet>
     <div
     >
       {children()}

@@ -2,12 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const SecondPage = () => (
-
-
-
-
     <div>
-
         <nav role="main navigation">
             <ul>
                 <li><a href="/">Home</a></li>
