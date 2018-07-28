@@ -3,13 +3,15 @@ import Link from 'gatsby-link'
 
 const SecondPage = () => (
     <div>
-        <nav role="main navigation">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/good-dogs">Good Dogs</a></li>
-                <li><a href="/bad-dog-myths">Bad Dog Myths</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav role="main navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/good-dogs">Good Dogs</a></li>
+                    <li><a href="/bad-dog-myths">Bad Dog Myths</a></li>
+                </ul>
+            </nav>
+        </header>
 
         <main id="main" role="main">
             <h1 itemProp="headline">Dogs: They are good</h1>
