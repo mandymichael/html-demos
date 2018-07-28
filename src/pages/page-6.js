@@ -22,8 +22,8 @@ const SecondPage = () => (
                 <div>Why are dogs good?</div>
                 <div>Dogs are loyal, intelligent, devoted and affectionate, they are known to improve our physical and mental health.</div>
                 <div>
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Screen%20Shot%202018-04-02%20at%209.15.48%20PM.png" alt="A fluffy golden retriever" width="300" />
                     <div>Michaelangelo AKA "Jello"</div>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Screen%20Shot%202018-04-02%20at%209.15.48%20PM.png" width="300" />
                 </div>
 
                 <div>The IGDA is an international, not-for-profit organization responsible for determining that all dogs are good.</div>
