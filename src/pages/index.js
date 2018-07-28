@@ -5,92 +5,61 @@ const IndexPage = () => (
     <div>
         <div>
             <div>
-
                 <div>
                     <div>
-                        <div>
-                            <a href="/">Home</a>
-                        </div>
-                        <div>
-                            <a href="/good-dogs">Good Dogs</a>
-                        </div>
-                        <div>
-                            <a href="/">Sleeping Dogs</a>
-                        </div>
-                        <div>
-                            <a href="/">Fluffy Dogs</a>
-                        </div>
+                        <div onClick={() =>  window.location='/'}>Home</div>
+                        <div onClick={() =>  window.location='http://www.google.com/'}>Good Dogs</div>
+                        <div onClick={() =>  window.location='http://www.google.com/'}>Bad Dog Myths</div>
                     </div>
                 </div>
 
                 <div>
-
                     <div>Dogs: They are good</div>
-                    <div>
-                        <p>Corgo you are a long doggo, many pats.</p>
-                    </div>
-                    <div>
-                        <div>August 3rd, 2018</div>
-                    </div>
+                    <div>We are dedicated to educating the world on why dogs are good, and how they can make your life good.</div>
+                    <div>By <div>Mandy Michael</div>, <div>August 3rd, 2018</div></div>
                 </div>
+
                 <div>Why are dogs good?</div>
-                <div>Doggo ipsum the neighborhood pupper, shoob you are doin me a concern. Noodle horse smol borking</div>
+                <div>Dogs are loyal, intelligent, devoted and affectionate, they are known to improve our physical and mental health.</div>
                 <div>
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Screen%20Shot%202018-04-02%20at%209.15.48%20PM.png" alt="A fluffy golden retriever" width="300" d />
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Screen%20Shot%202018-04-02%20at%209.15.48%20PM.png" alt="A fluffy golden retriever" width="300" />
                     <div>Michaelangelo AKA "Jello"</div>
                 </div>
 
+                <div>The <div><span title="International Good Dog Association">IGDA</span></div>
+is an international, not-for-profit organization responsible for determining that all dogs are good.</div>
+
                 <div></div>
 
-                <div>Big ol pupper</div>
+                <div>The benefits of owning a dog</div>
 
                 <div>
-                    <div>Corgo you are a long doggo, many pats.</div>
-                    <div>Blop adorable doggo what a nice floof</div>
-                    <div>biscit smol borking doggo with a long snoot for pats</div>
+                    <div>Studies have found dog owners have lower blood pressure than non-dog owners.</div>
+                    <div>Regular walks with your dog will result in better fitness.</div>
+                    <div>Dogs provide us with a sense of emotional wellbeing thanks to the unconditional love they give.</div>
+                    <div>When dogs socialise with other dogs, their owners make new friends and socialise with other people as well. </div>
                 </div>
 
-                <div>He made many woofs</div>
-                <div>Shoober very good boys and girls smol aqua doggo</div>
+                <div>Did you know?</div>
+                <div>There is evidence to suggest that we didn't domesticate wolves – they came to us first. The friendliest ones hung around our ancestors' campsites and so began the evolution of the modern dog.</div>
                 <div>
-                    <div>Long doggo pupperino, many pats extremely cuuuuuute.</div>
-                    <div>– floofy pupper, neighborhood</div>
+                    <div>Dog owners are 34% more likely to get enough exercise than non-pet owners are.</div>
+                    <div>– A smart person</div>
                 </div>
-                <p>Doggo ipsum aqua doggo bork such treat stop it fren bork doge, sub woofer shoober heckin angery woofer woofer. dat tungg tho wow very biscit floofs. Floofs doing me a frighten woofer tungg aqua doggo, ur givin me a spook vvv long bois. Puggo aqua doggo.</p>
-                <p>shooberino borkf, lotsa pats. Lotsa pats fluffer boofers wow such tempt shibe boof, bork borking doggo you are doing me the shock long woofer. <q cite="http://google.com">Dogs are the best</q>. Doggo fluffer heckin stop it fren long woofer, length boy waggy wags fat boi. Woofer floofs long water shoob</p>
 
-                <details>
-                    <summary>Doggo Rules</summary>
-                    Borkdrive long water shoob the neighborhood pupper.
-                </details>
-
-
-                     {/* pupper ur givin me a spook, very hand that feed shibe tungg very good spot doggorino very jealous pupper. Ur givin me a spook big ol long doggo, he made many woofs. Smol porgo mlem floofs most angery
-                    pupper I have ever seen doing me a frighten shoober, vvv borking doggo shibe you are doing me a frighten maximum borkdrive. Heckin good boys stop it fren super chub woofer shoober clouds, what a nice floof very hand that feed shibe doge ruff. Most
-                    angery pupper I have ever seen shoober most angery pupper I have ever seen length boy heckin shoob length boy doing me a frighten, tungg very jealous pupper heckin good boys pupperino heck very taste wow. Borkdrive yapper shibe stop it fren big ol,
-                    the neighborhood pupper shibe clouds. Noodle horse lotsa pats puggo, bork. Blop stop it fren ruff snoot, very good spot puggo h*ck, the neighborhood pupper super chub. Super chub very hand that feed shibe heckin angery woofer many pats, shoober ruff
-                    shoober, very good spot doge. Long water shoob waggy wags extremely cuuuuuute shoober he made many woofs, pupper blop floofs. Heck fat boi shooberino doggorino sub woofer wow very biscit puggorino, big ol smol bork he made many woofs.</p> */}
+            </div>
+            <div>
+                <div>Related Links</div>
+                <div onClick={() =>  window.location='/'}>IGDA</div>
             </div>
         </div>
 
         <div>
             <div>
                 <div>
-                    <div>
-                        <a href="/">Home</a>
-                    </div>
-                    <div>
-                        <a href="/good-dogs">Good Dogs</a>
-                    </div>
-                    <div>
-                        <a href="/">Sleeping Dogs</a>
-                    </div>
-                    <div>
-                        <a href="/">Fluffy Dogs</a>
-                    </div>
-
-                    <Link to="page-2">Another Demo</Link>
-
+                    <div onClick={() =>  window.location='/'}>Home</div>
+                    <div onClick={() =>  window.location='http://www.google.com/'}>Good Dogs</div>
+                    <div onClick={() =>  window.location='http://www.google.com/'}>Bad Dog Myths</div>
                 </div>
             </div>
         </div>
