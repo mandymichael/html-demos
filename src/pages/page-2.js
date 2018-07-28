@@ -13,7 +13,7 @@ const SecondPage = () => (
             </nav>
         </header>
 
-        <section>
+        <main role="main">
             <h1 itemProp="headline">Dogs: They are good</h1>
             <p itemProp="description">We are dedicated to educating the world on why dogs are good, and how they can make your life good.</p>
             <div itemScope itemType="http://schema.org/Person">
@@ -56,7 +56,7 @@ is an international, not-for-profit organization responsible for determining tha
                 <p>There is evidence to suggest that we didn't domesticate wolves – they came to us first. The friendliest ones hung around our ancestors' campsites and so began the evolution of the modern dog.</p>
 
             </article>
-        </section>
+        </main>
 
         <footer role='contentinfo'>
             <p>Made with love by Mandy Michael</p>
