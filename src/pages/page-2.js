@@ -5,10 +5,10 @@ const SecondPage = () => (
     <div>
         <header>
             <nav role="navigation" aria-label="main navigation">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/good-dogs">Good Dogs</a></li>
-                    <li><a href="/bad-dog-myths">Bad Dog Myths</a></li>
+                <ul role="list">
+                    <li role="listitem"><a href="/">Home</a></li>
+                    <li role="listitem"><a href="/good-dogs">Good Dogs</a></li>
+                    <li role="listitem"><a href="/bad-dog-myths">Bad Dog Myths</a></li>
                 </ul>
             </nav>
         </header>
@@ -25,9 +25,9 @@ const SecondPage = () => (
                 <h2>Why are dogs good?</h2>
                 <p>Dogs are loyal, intelligent, devoted and affectionate, they are known to improve our physical and mental health.</p>
 
-                <figure>
+                <figure role="group">
+                    <figcaption>A dog named Michaelangelo <abbr title="Also Known As">AKA</abbr> Jello</figcaption>
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Screen%20Shot%202018-04-02%20at%209.15.48%20PM.png" alt="A fluffy golden retriever" width="300" />
-                    <figcaption>Michaelangelo <abbr title="Also Known As">AKA</abbr> "Jello"</figcaption>
                 </figure>
 
                 <p>The <dfn><abbr title="International Good Dog Association">IGDA</abbr></dfn>
