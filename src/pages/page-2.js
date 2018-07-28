@@ -24,7 +24,7 @@ const SecondPage = () => (
                 <time datetime="2018-08-03" itemProp="datePublished">August 3rd, 2018</time>
             </div>
 
-            <article itemProp="articleBody">
+            <article itemProp="articleBody" role="article">
                 <h2>Why are dogs good?</h2>
                 <p>Dogs are loyal, intelligent, devoted and affectionate, they are known to improve our physical and mental health.</p>
 
@@ -36,7 +36,16 @@ const SecondPage = () => (
                 <p>The <dfn><abbr title="International Good Dog Association">IGDA</abbr></dfn>
 is an international, not-for-profit organization responsible for determining that all dogs are good.</p>
 
+                <blockquote>
+                    <p>Dog owners are 34% more likely to get enough exercise than non-pet owners are.</p>
+                    <cite>– A smart person</cite>
+                </blockquote>
                 <hr />
+
+                <aside role='complementary'>
+                    <h2>Related Links</h2>
+                    <a href="/">IGDA</a>
+                </aside>
 
                 <h2>The benefits of owning a dog</h2>
                 <ul>
@@ -49,27 +58,11 @@ is an international, not-for-profit organization responsible for determining tha
                 <h3>Did you know?</h3>
                 <p>There is evidence to suggest that we didn't domesticate wolves – they came to us first. The friendliest ones hung around our ancestors' campsites and so began the evolution of the modern dog.</p>
 
-                <blockquote>
-                    <p>Dog owners are 34% more likely to get enough exercise than non-pet owners are.</p>
-                    <q>– A smart person</q>
-                </blockquote>
             </article>
-
-            <aside>
-                <h2>Related Links</h2>
-                <a href="/">IGDA</a>
-            </aside>
         </main>
 
-        <footer>
-            <navigation role="footer">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/good-dogs">Good Dogs</a></li>
-                    <li><a href="/">Sleeping Dogs</a></li>
-                    <li><a href="/">Fluffy Dogs</a></li>
-                </ul>
-            </navigation>
+        <footer role='contentinfo'>
+            <p>Made with love by Mandy Michael</p>
         </footer>
     </div>
 )

@@ -26,10 +26,14 @@ const IndexPage = () => (
                     <div>Michaelangelo AKA "Jello"</div>
                 </div>
 
-                <div>The <div><span title="International Good Dog Association">IGDA</span></div>
-is an international, not-for-profit organization responsible for determining that all dogs are good.</div>
+                <div>The IGDA is an international, not-for-profit organization responsible for determining that all dogs are good.</div>
 
                 <div></div>
+
+                <div>
+                    <div>Related Links</div>
+                    <div onClick={() =>  window.location='/'}>IGDA</div>
+                </div>
 
                 <div>The benefits of owning a dog</div>
 
@@ -48,20 +52,10 @@ is an international, not-for-profit organization responsible for determining tha
                 </div>
 
             </div>
-            <div>
-                <div>Related Links</div>
-                <div onClick={() =>  window.location='/'}>IGDA</div>
-            </div>
         </div>
 
         <div>
-            <div>
-                <div>
-                    <div onClick={() =>  window.location='/'}>Home</div>
-                    <div onClick={() =>  window.location='http://www.google.com/'}>Good Dogs</div>
-                    <div onClick={() =>  window.location='http://www.google.com/'}>Bad Dog Myths</div>
-                </div>
-            </div>
+            <div>Made with love by Mandy Michael</div>
         </div>
     </div>
 )
