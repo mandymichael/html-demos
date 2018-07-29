@@ -25,7 +25,7 @@ const SecondPage = () => (
                 <h2>Why are dogs good?</h2>
                 <p>Dogs are loyal, intelligent, devoted and affectionate, they are known to improve our physical and mental health.</p>
 
-                <figure>
+                <figure role='img'>
                     <figcaption>A dog named Michaelangelo <abbr title="Also Known As">AKA</abbr> Jello</figcaption>
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Screen%20Shot%202018-04-02%20at%209.15.48%20PM.png" alt="A fluffy golden retriever" width="300" />
                 </figure>
