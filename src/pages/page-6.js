@@ -7,9 +7,9 @@ const SecondPage = () => (
             <div>
                 <div>
                     <div>
-                        <div onClick={() =>  window.location='/'}>Home</div>
-                        <div onClick={() =>  window.location='http://www.google.com/'}>Good Dogs</div>
-                        <div onClick={() =>  window.location='http://www.google.com/'}>Bad Dog Myths</div>
+                        <a href="#">Home</a>
+                        <a href="#">Good Dogs</a>
+                        <a href="#">Bad Dog Myths</a>
                     </div>
                 </div>
 
